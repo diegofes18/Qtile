@@ -1,6 +1,3 @@
-# Antonio Sarosi
-# https://youtube.com/c/antoniosarosi
-# https://github.com/antoniosarosi/dotfiles
 
 # Qtile workspaces
 
@@ -21,7 +18,7 @@ from .keys import mod, keys
 # nf-mdi-layers
 
 groups = [Group(i) for i in [
-    "   ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "   ",
+    "   ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "   ", 
 ]]
 
 for i, group in enumerate(groups):
