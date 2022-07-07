@@ -29,7 +29,7 @@ def powerline(fg="light", bg="dark"):
         **base(fg, bg),
         text="", # Icon: nf-oct-triangle_left
         fontsize=37,
-        padding=-2
+        padding=-3
     )
 
 
@@ -75,7 +75,7 @@ primary_widgets = [
         colour_have_updates=colors['text'],
         colour_no_updates=colors['text'],
         foreground = "#0a0500",
-        fmt = '{}',
+        fmt = '{} ',
     ),
 
     powerline('color3', 'color4'),
@@ -83,7 +83,7 @@ primary_widgets = [
     
     
     widget.CPU(**base(bg='color3'),fmt = '{}, ', ),
-    widget.ThermalSensor(**base(bg='color3'), fmt = ': {}'),
+    widget.ThermalSensor(**base(bg='color3'), fmt = ': {} '),
 
     powerline('color2', 'color3'),
 
